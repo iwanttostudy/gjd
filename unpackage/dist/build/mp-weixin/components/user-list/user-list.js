@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/user-list/user-list"],{"071e":function(t,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={props:{list:Array,loadStatus:String},data:function(){return{userLst:[]}},watch:{list:function(){this.userLst=this.list}},methods:{follow:function(t,n){var u=this;this.$H.post("user/addFollow",{id:n}).then((function(n){200==n.code&&(u.userLst[t].has_follow=1)}))},cancelFollow:function(t,n){var u=this;this.$H.post("user/cancelFollow",{id:n}).then((function(n){200===n.code&&(u.userLst[t].has_follow=0)}))}}};n.default=e},"4a61":function(t,n,u){},"5b71":function(t,n,u){"use strict";u.r(n);var e=u("ff59"),o=u("5fc7");for(var r in o)"default"!==r&&function(t){u.d(n,t,(function(){return o[t]}))}(r);u("dff7");var i,a=u("f0c5"),c=Object(a["a"])(o["default"],e["b"],e["c"],!1,null,null,null,!1,e["a"],i);n["default"]=c.exports},"5fc7":function(t,n,u){"use strict";u.r(n);var e=u("071e"),o=u.n(e);for(var r in e)"default"!==r&&function(t){u.d(n,t,(function(){return e[t]}))}(r);n["default"]=o.a},dff7:function(t,n,u){"use strict";var e=u("4a61"),o=u.n(e);o.a},ff59:function(t,n,u){"use strict";u.d(n,"b",(function(){return o})),u.d(n,"c",(function(){return r})),u.d(n,"a",(function(){return e}));var e={uAvatar:function(){return u.e("uview-ui/components/u-avatar/u-avatar").then(u.bind(null,"2447"))},uButton:function(){return u.e("uview-ui/components/u-button/u-button").then(u.bind(null,"a28a"))},uEmpty:function(){return u.e("uview-ui/components/u-empty/u-empty").then(u.bind(null,"967f"))},uLoadmore:function(){return u.e("uview-ui/components/u-loadmore/u-loadmore").then(u.bind(null,"f7f0"))}},o=function(){var t=this,n=t.$createElement;t._self._c},r=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/user-list/user-list-create-component',
+    {
+        'components/user-list/user-list-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("5b71"))
+        })
+    },
+    [['components/user-list/user-list-create-component']]
+]);

@@ -1,0 +1,1 @@
+.login{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;padding:100rpx}.login .logo{width:230rpx;height:230rpx;margin:50rpx auto}.login .txt1{margin-bottom:10rpx}.login .txt2{color:#999;margin-bottom:50rpx}
